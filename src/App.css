@@ -1,0 +1,27 @@
+.laporan {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  line-height: 12px;
+}
+.laporan #header1{
+  font-size: larger;
+  font-weight: bolder;
+}
+.laporan #header2{
+  font-weight: normal;
+  margin-bottom: 2%;
+}
+.table1{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+.table1 td, .table1 th{
+  border: 0.5px solid #bdc3c7;
+  padding: 6px;
+}
+.table1 tbody tr:nth-child(odd){
+  background-color: #F0F0F0;
+}
