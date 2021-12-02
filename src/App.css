@@ -19,9 +19,16 @@
   font-size: 13px;
 }
 .table1 td, .table1 th{
-  border: 0.5px solid #bdc3c7;
+  border: 0.5px solid #DCDCDC;
   padding: 6px;
 }
 .table1 tbody tr:nth-child(odd){
   background-color: #F0F0F0;
+}
+.table1 tbody tr td.one{
+  text-align: right;
+}
+.table1 td.two{
+  text-align: right;
+  font-weight: bolder;
 }
